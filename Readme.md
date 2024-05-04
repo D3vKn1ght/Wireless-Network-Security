@@ -44,15 +44,13 @@ Tiến hành chuyển card wifi sang monitor mode:
 
 Kết nối captive portal qua wifi, truy cập **172.0.0.1/ssid** thay đổi ssid bằng ssid cần tấn công giả mạo.
 
-[https://lh7-us.googleusercontent.com/ZhsMx-W6ftrqPeThYZ12fPvoZlGdY4x-CcoeArL20Z1xpYVTi_FeMaAAOSQ4cYUjL4uGm0D6lpqNduTc-L4ilNKg6zda3eMNiD_HaZ4cOJrdh3Y_OdH-83-CUH0JoDVzG7FARWNYfy7TDYV4kCY0zA8](https://lh7-us.googleusercontent.com/ZhsMx-W6ftrqPeThYZ12fPvoZlGdY4x-CcoeArL20Z1xpYVTi_FeMaAAOSQ4cYUjL4uGm0D6lpqNduTc-L4ilNKg6zda3eMNiD_HaZ4cOJrdh3Y_OdH-83-CUH0JoDVzG7FARWNYfy7TDYV4kCY0zA8)
+<img width="80%" src="image/captivessid.png">
 
 Trong danh sách hiển thị wifi nhìn thấy một điểm truy cập có ssid giống với ssid của điểm truy cập cần tấn công.
 
-[https://lh7-us.googleusercontent.com/mkCaG9MipKARbhVcibFBi18qETir2qg_E-65ye5s_KARrw7-nP4Fr9CBouLFiWP0jH5JuBlMcnCmZUvOpVQmPE0VPg1hSmuQQq_3V4tdvBlVK7YEMHx8m2KbJbyWFKGAj506J1AvSNWBgM6RGzA8na8](https://lh7-us.googleusercontent.com/mkCaG9MipKARbhVcibFBi18qETir2qg_E-65ye5s_KARrw7-nP4Fr9CBouLFiWP0jH5JuBlMcnCmZUvOpVQmPE0VPg1hSmuQQq_3V4tdvBlVK7YEMHx8m2KbJbyWFKGAj506J1AvSNWBgM6RGzA8na8)
+<img width="80%" src="image/listwifi.png">
 
 Tuy nhiên, victim sẽ không tự động truy cập vào điểm truy cập giả mạo. Tấn công, deautheication để khuyến khích victim truy cập điểm cập giả mạo.
-
-[https://lh7-us.googleusercontent.com/yyUlYp6Xnwqrba1lAzOxhE-xtPUGq7LOEyuoIyvKnmZ0iJUUtr-vv-jV21uIC1E8oTcI_WH41v4sEXKg7SGzCZq9tSo5tQz8WJmHOcuk7eb3zG_zVMSUnIZLO5spderXNtW7xvNPccAI8Uo7PLYWmlc](https://lh7-us.googleusercontent.com/yyUlYp6Xnwqrba1lAzOxhE-xtPUGq7LOEyuoIyvKnmZ0iJUUtr-vv-jV21uIC1E8oTcI_WH41v4sEXKg7SGzCZq9tSo5tQz8WJmHOcuk7eb3zG_zVMSUnIZLO5spderXNtW7xvNPccAI8Uo7PLYWmlc)
 
 1. **Tấn công deauthentication:**
 
@@ -92,7 +90,9 @@ Khi victim nhập mật khẩu, điểm truy cập giả mạo sẽ chuyển ti�
 
 1. **Tấn công deauthentication:**
 
-Lúc này, chúng ta mở địa chỉ **172.0.0.1/ssid** sẽ thu được ssid, mật khẩu của điểm truy cập thật.
+Lúc này, chúng ta mở địa chỉ **172.0.0.1/pass** sẽ thu được ssid, mật khẩu của điểm truy cập thật.
+<img width="80%" src="image/cppass.png">
+
 
 **II. Phòng thủ:**
 
