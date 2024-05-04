@@ -56,17 +56,18 @@ Tuy nhiên, victim sẽ không tự động truy cập vào điểm truy cập g
 
 Sau khi tải code demo, ta được các tệp dưới đây:
 
-[https://lh7-us.googleusercontent.com/VLFcXIb93Ne5Trvg6byFzs2ShGom_PnSb4CEuzUgHi3u9AJdgforD3uzp91fJXLJ3Jc77QU2ft27XhWApSPPwdVl4iHIXmjCh9Qb77iXyaqkut0IFM7q3xy8mCdVz5EtEXAytDtjYNBSAxpY7sytRqI](https://lh7-us.googleusercontent.com/VLFcXIb93Ne5Trvg6byFzs2ShGom_PnSb4CEuzUgHi3u9AJdgforD3uzp91fJXLJ3Jc77QU2ft27XhWApSPPwdVl4iHIXmjCh9Qb77iXyaqkut0IFM7q3xy8mCdVz5EtEXAytDtjYNBSAxpY7sytRqI)
+<img width="80%" src="image/listfile.png>
 
 Trên terminal nhập: **sudo python3 showwificlient.py** để lấy địa chỉ MAC của client, BSSID của điểm truy cập cần tấn công. Ở đây ta tìm kiếm điểm truy cập có tên là banhMi.
 
 Tiến hành nhập interface mà ta thấy ở bước chuẩn bị, ở đây là wlp0s20f3mon.
 
-[https://lh7-us.googleusercontent.com/vywJ9TNkVweL0LmEuQG7C5Gn72LAe8Ahk0EpGGYrvqn2il9Q7F-AhZkzNswDnB3lJfBh7IjYV3mH6ohkapcL4eJ8bZoLN23VROAaBq9wRhykv71Hh6kkW6FoQkYyk0_101oF3KyeWOWRtIQ32GCI5TM](https://lh7-us.googleusercontent.com/vywJ9TNkVweL0LmEuQG7C5Gn72LAe8Ahk0EpGGYrvqn2il9Q7F-AhZkzNswDnB3lJfBh7IjYV3mH6ohkapcL4eJ8bZoLN23VROAaBq9wRhykv71Hh6kkW6FoQkYyk0_101oF3KyeWOWRtIQ32GCI5TM)
+<img width="80%" src="image/showwifi1.png>
+
 
 Ta có địa chỉ BSSID là  **E8:48:B8:EF:5A:7C**, MAC kết nối tới điểm truy cập SSID banhMi là **00:D2:79:B3:D4:D4:**
 
-[https://lh7-us.googleusercontent.com/sK4cnY0Q5Mo0azkrimxe-w8H-S93AxSF1QY2jmvh3s6wcvPJrLj73fdCeX0L36SmTxJJwhta00UtjLNYQBhQMQ-va2KERGBuupxpo3odk2GlC-DCcfWdxzsBsH8oNACvGEMSz7rcLPJ2GiQaoop4A20](https://lh7-us.googleusercontent.com/sK4cnY0Q5Mo0azkrimxe-w8H-S93AxSF1QY2jmvh3s6wcvPJrLj73fdCeX0L36SmTxJJwhta00UtjLNYQBhQMQ-va2KERGBuupxpo3odk2GlC-DCcfWdxzsBsH8oNACvGEMSz7rcLPJ2GiQaoop4A20)
+<img width="80%" src="image/showifi2.png>
 
 Mở một tab mới, nhập lệnh : **sudo python3 deauthen.py.** Nhập interface, bssid, ssid thu được ở trên:
 
@@ -98,8 +99,8 @@ Lúc này, chúng ta mở địa chỉ **172.0.0.1/pass** sẽ thu được ssid
 
 Để phát hiện cuộc tấn công deauthen, ta chạy lệnh **sudo python3 detect_deauthen.py** để tiến hành bắt các gói tin beacon và gói tin deauthen.
 
-[https://lh7-us.googleusercontent.com/rgqBD1wY9zqHYhXfMmgUxDzi8X_rQBFoJf_jLnregEEtZ84c_QMO6aVKXqoXrORfl0IyBTdCmfPLOJ1SbL6_apUKhytJvTRFObClSUEKvsIibEf4I6eJvENazVqfNgXAIzOkzprMbqII4t0q9NZWYW8](https://lh7-us.googleusercontent.com/rgqBD1wY9zqHYhXfMmgUxDzi8X_rQBFoJf_jLnregEEtZ84c_QMO6aVKXqoXrORfl0IyBTdCmfPLOJ1SbL6_apUKhytJvTRFObClSUEKvsIibEf4I6eJvENazVqfNgXAIzOkzprMbqII4t0q9NZWYW8)
+<img width="80%" src="image/defentsniff.png">
 
 ****Khi có cuộc tấn công, công cụ hiển thị thông tin của cuộc tấn công deauthen:
 
-[https://lh7-us.googleusercontent.com/-JONr__JCoa6-M3TOOKpcHuHkpomAOg3WmKhVDqvm1sCMsrg57zAf6LTNu4B25B9IFtO4wp3aDWezANGJkAY_APrR6iIFkssccfV6Pd2OloYSR1zNOZwIogH0HFWgA9Tjaql2_T-Cdw8ivVYl0I5Vnc](https://lh7-us.googleusercontent.com/-JONr__JCoa6-M3TOOKpcHuHkpomAOg3WmKhVDqvm1sCMsrg57zAf6LTNu4B25B9IFtO4wp3aDWezANGJkAY_APrR6iIFkssccfV6Pd2OloYSR1zNOZwIogH0HFWgA9Tjaql2_T-Cdw8ivVYl0I5Vnc)
+<img width="80%" src="image/defendetect.png">
