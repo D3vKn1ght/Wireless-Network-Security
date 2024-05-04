@@ -56,18 +56,18 @@ Tuy nhiên, victim sẽ không tự động truy cập vào điểm truy cập g
 
 Sau khi tải code demo, ta được các tệp dưới đây:
 
-<img width="80%" src="image/listfile.png>
+<img width="80%" src="image/listfile.png">
 
 Trên terminal nhập: **sudo python3 showwificlient.py** để lấy địa chỉ MAC của client, BSSID của điểm truy cập cần tấn công. Ở đây ta tìm kiếm điểm truy cập có tên là banhMi.
 
 Tiến hành nhập interface mà ta thấy ở bước chuẩn bị, ở đây là wlp0s20f3mon.
 
-<img width="80%" src="image/showwifi1.png>
+<img width="80%" src="image/showwifi1.png">
 
 
 Ta có địa chỉ BSSID là  **E8:48:B8:EF:5A:7C**, MAC kết nối tới điểm truy cập SSID banhMi là **00:D2:79:B3:D4:D4:**
 
-<img width="80%" src="image/showifi2.png>
+<img width="80%" src="image/showifi2.png">
 
 Mở một tab mới, nhập lệnh : **sudo python3 deauthen.py.** Nhập interface, bssid, ssid thu được ở trên:
 
