@@ -16,6 +16,7 @@ Sau khi tải source code captive portal, tiến hành nạp code vào một ESP
 Để đơn giản, có thể sử dụng bản release có sẵn: [https://github.com/D3vKn1ght/ESP8266-Captive-Portal/releases/download/v1.0/WiFi_Captive_Portal.ino.bin](https://github.com/D3vKn1ght/ESP8266-Captive-Portal/releases/download/v1.0/WiFi_Captive_Portal.ino.bin)
 
 Mở **NodeMCU Flasher** kết nối với port của ESP8266.
+<img width="80%" src="image/nodemcuflaser.png">
 
 [https://lh7-us.googleusercontent.com/pj1Qb1mZMBl_VMsF7t0cZTm1U0oHE60lOrBbj-gvnyteP8vRMt9s4ENMwwoFu4TEiDpEeLg1yX0376WMlWNdBwqRWlpzSf-9xvGG8gFT4XqSo9lBkAY-V-zZAHDP_sYY0ISdU7YtjQ-TM6zFE5KBfbU](https://lh7-us.googleusercontent.com/pj1Qb1mZMBl_VMsF7t0cZTm1U0oHE60lOrBbj-gvnyteP8vRMt9s4ENMwwoFu4TEiDpEeLg1yX0376WMlWNdBwqRWlpzSf-9xvGG8gFT4XqSo9lBkAY-V-zZAHDP_sYY0ISdU7YtjQ-TM6zFE5KBfbU)
 
