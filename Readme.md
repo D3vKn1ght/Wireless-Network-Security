@@ -16,27 +16,25 @@ Sau khi tải source code captive portal, tiến hành nạp code vào một ESP
 Để đơn giản, có thể sử dụng bản release có sẵn: [https://github.com/D3vKn1ght/ESP8266-Captive-Portal/releases/download/v1.0/WiFi_Captive_Portal.ino.bin](https://github.com/D3vKn1ght/ESP8266-Captive-Portal/releases/download/v1.0/WiFi_Captive_Portal.ino.bin)
 
 Mở **NodeMCU Flasher** kết nối với port của ESP8266.
-<img width="80%" src="image/nodemcuflaser.png">
 
-[https://lh7-us.googleusercontent.com/pj1Qb1mZMBl_VMsF7t0cZTm1U0oHE60lOrBbj-gvnyteP8vRMt9s4ENMwwoFu4TEiDpEeLg1yX0376WMlWNdBwqRWlpzSf-9xvGG8gFT4XqSo9lBkAY-V-zZAHDP_sYY0ISdU7YtjQ-TM6zFE5KBfbU](https://lh7-us.googleusercontent.com/pj1Qb1mZMBl_VMsF7t0cZTm1U0oHE60lOrBbj-gvnyteP8vRMt9s4ENMwwoFu4TEiDpEeLg1yX0376WMlWNdBwqRWlpzSf-9xvGG8gFT4XqSo9lBkAY-V-zZAHDP_sYY0ISdU7YtjQ-TM6zFE5KBfbU)
+<img width="80%" src="image/nodemcuflaser.png">
 
 Vào config thêm file bin vừa tải ở trên vào:
 
-[https://lh7-us.googleusercontent.com/yWET-uKkrbcL-edkB92e-EUCdsCjVJGnNLOuR-6hwfq_ZCx4kiQ1V3Lqf_8r6jja6qPMb6g48BozqpRG1FLL3kExhp3PTAzaxbSbkHqp8HSrDCpxX20PVo8eg0iAn4sgbr157YcoVgdC6Akivk6lmoc](https://lh7-us.googleusercontent.com/yWET-uKkrbcL-edkB92e-EUCdsCjVJGnNLOuR-6hwfq_ZCx4kiQ1V3Lqf_8r6jja6qPMb6g48BozqpRG1FLL3kExhp3PTAzaxbSbkHqp8HSrDCpxX20PVo8eg0iAn4sgbr157YcoVgdC6Akivk6lmoc)
-
+<img width="80%" src="image/flaserconfig.png">
 Tiến hành ấn flash, sau khi flash hoàn thành sẽ có một captive portal trên ESP8266.
 
-[https://lh7-us.googleusercontent.com/0Ngd9fc4cHc1yBQQLPaMXEqBDjq4SEtfkktlRAsUjnhoyBqO8uH4OLQa3hxQ0vWZJkPYJUHj6shW5dxuuapYenxzsMI2tmkIKEL4w0V35rNFtd-BHEEZrdhSpDlMtQQW5XkFrsDHl5hnB3ZU2-oHbLo](https://lh7-us.googleusercontent.com/0Ngd9fc4cHc1yBQQLPaMXEqBDjq4SEtfkktlRAsUjnhoyBqO8uH4OLQa3hxQ0vWZJkPYJUHj6shW5dxuuapYenxzsMI2tmkIKEL4w0V35rNFtd-BHEEZrdhSpDlMtQQW5XkFrsDHl5hnB3ZU2-oHbLo)
+<img width="80%" src="image/captiveaptiveportal.png">
 
 **III. Bật monitor mode wifi:**
 
 Gõ lệnh **iwconfig** tìm interface của card wifi, ví dụ : **wlp0s20f3**
 
-[https://lh7-us.googleusercontent.com/eHgvTlNCErr_j5CF8kqA1r4LJp2QmFh4RArHFKGIsaAusXgEvQddFbCySSIT9TU_2S5klI3gwHHI5vVd7pDJNEHjO-J22vpR1IO1SotZqsthi7UxCzIjIyvlXT7w0PG6vti5Pnx10KfsihpPNDWibAg](https://lh7-us.googleusercontent.com/eHgvTlNCErr_j5CF8kqA1r4LJp2QmFh4RArHFKGIsaAusXgEvQddFbCySSIT9TU_2S5klI3gwHHI5vVd7pDJNEHjO-J22vpR1IO1SotZqsthi7UxCzIjIyvlXT7w0PG6vti5Pnx10KfsihpPNDWibAg)
+<img width="80%" src="image/iwconfig.png">
 
 Tiến hành chuyển card wifi sang monitor mode:
 
-[https://lh7-us.googleusercontent.com/3X2ioe__L_klFEMUFVm8RF1PiIKWBcU99Z05j9xyFiDNkO65qGpknEZ3TXPGDKa3hMC9K9FTXCRJJd9Uwa_mIDd7zNkQN8crxh4CtK6r9JeDaaRfQyxT-1uvmii9qH3VMuRpU6Usza_N2wUuyD2tH_U](https://lh7-us.googleusercontent.com/3X2ioe__L_klFEMUFVm8RF1PiIKWBcU99Z05j9xyFiDNkO65qGpknEZ3TXPGDKa3hMC9K9FTXCRJJd9Uwa_mIDd7zNkQN8crxh4CtK6r9JeDaaRfQyxT-1uvmii9qH3VMuRpU6Usza_N2wUuyD2tH_U)
+<img width="80%" src="image/monitormode.png">
 
 **B. Demo:**
 
