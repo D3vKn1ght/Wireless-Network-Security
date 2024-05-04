@@ -71,23 +71,23 @@ Ta có địa chỉ BSSID là  **E8:48:B8:EF:5A:7C**, MAC kết nối tới đi
 
 Mở một tab mới, nhập lệnh : **sudo python3 deauthen.py.** Nhập interface, bssid, ssid thu được ở trên:
 
-[https://lh7-us.googleusercontent.com/cbiYM3coDCv0dg44ij62rPGaelxhE8C54Nvl_No946St5mfZz719hmPDBC-eNliuLamFbAeCuYBq3fxqIhHmQorZ8wqcqFWy6CvybQrzEXAswK_8KSG4zmiefQ0ze_wyAFWwFFUquEQ3oyZyot2e6wA](https://lh7-us.googleusercontent.com/cbiYM3coDCv0dg44ij62rPGaelxhE8C54Nvl_No946St5mfZz719hmPDBC-eNliuLamFbAeCuYBq3fxqIhHmQorZ8wqcqFWy6CvybQrzEXAswK_8KSG4zmiefQ0ze_wyAFWwFFUquEQ3oyZyot2e6wA)
+<img width="80%" src="image/deauthen1.png">
 
 Công cụ hiển thị thông tin gói tin deauthen, nhấn Enter để tiếp tục tấn công. Sau khi ấn Enter, công cụ hiển thị log đang tấn công deauthen và trên thiết bị kết nối wifi đã bị mất kết nối wifi.
 
-[https://lh7-us.googleusercontent.com/s4cG9U8JuNw6lG6KIA7K4ePsZEehRNoDBrB4rWl99HKBNjnjbl9kk6Rsoq3VyPB1rf8RWfqRti32-IVBGjhRD9lUWWmTfpv3Uqqi16MjymDqayL-gsSpRpxsP1klD11shA-ULovRIVrNlEmvG-6VsRs](https://lh7-us.googleusercontent.com/s4cG9U8JuNw6lG6KIA7K4ePsZEehRNoDBrB4rWl99HKBNjnjbl9kk6Rsoq3VyPB1rf8RWfqRti32-IVBGjhRD9lUWWmTfpv3Uqqi16MjymDqayL-gsSpRpxsP1klD11shA-ULovRIVrNlEmvG-6VsRs)
+<img width="80%" src="image/deauthen2.png">
 
 Lúc này, victim thử kết nối với điểm truy cập sẽ không kết nối được.
 
-[https://lh7-us.googleusercontent.com/Le-y4bGX0WHmnS9FQxcWBqtXio5-NRYuMyAtCxjZi3vtHIeBU5TUXeY9sK3N-jhfFGOJhXaSpcDmzcPgOptmO7WzLOEfAbHCKCctAiOqRwEEHBnGYINwRyNYtzMDwUAyYRBK6d0doovSARw96VXvwjs](https://lh7-us.googleusercontent.com/Le-y4bGX0WHmnS9FQxcWBqtXio5-NRYuMyAtCxjZi3vtHIeBU5TUXeY9sK3N-jhfFGOJhXaSpcDmzcPgOptmO7WzLOEfAbHCKCctAiOqRwEEHBnGYINwRyNYtzMDwUAyYRBK6d0doovSARw96VXvwjs)
+<img width="80%" src="image/deauthen3.png">
 
 Nhận thấy có một điểm truy cập có cấu hình giống với cấu hình thật hiển thị. Khi victim kết nối tới điểm truy cập giả mạo này, một trang web thông báo wifi lỗi thời, cần nhập mật khẩu để cập nhật.
 
-[https://lh7-us.googleusercontent.com/sd48Om7BSTEUuoZboVnBmo1ODwMDeiZaEYWKGIMl4L4NdoTCgpvq1FxllN8fblB3qXghM8XkaUrpI_BVS3SI9uVft1JMfWwbsxJceyz-WGkfM9Y7eibIT7RStns0F84A6w4Sauqppj6pje-k9iu9oZg](https://lh7-us.googleusercontent.com/sd48Om7BSTEUuoZboVnBmo1ODwMDeiZaEYWKGIMl4L4NdoTCgpvq1FxllN8fblB3qXghM8XkaUrpI_BVS3SI9uVft1JMfWwbsxJceyz-WGkfM9Y7eibIT7RStns0F84A6w4Sauqppj6pje-k9iu9oZg)
+<img width="80%" src="image/deauthen4.png">
 
 Khi victim nhập mật khẩu, điểm truy cập giả mạo sẽ chuyển tiếp đến trang web đang cập nhật, vui lòng chờ.
 
-[https://lh7-us.googleusercontent.com/zH4zdblYdmJaD9odY9PdLSnwPnlf4dGVQrK-e7F_Tyi1YA9ZBTECAkksz64Z6kWspIzrreHVzR9lhdip4-F6hP_PsVp728vH58zCme86rHJl5_Odu6tmLK-AyDaDTKCxwZfSCiW3QmhUh77cAP6K7b8](https://lh7-us.googleusercontent.com/zH4zdblYdmJaD9odY9PdLSnwPnlf4dGVQrK-e7F_Tyi1YA9ZBTECAkksz64Z6kWspIzrreHVzR9lhdip4-F6hP_PsVp728vH58zCme86rHJl5_Odu6tmLK-AyDaDTKCxwZfSCiW3QmhUh77cAP6K7b8)
+<img width="80%" src="image/deauthen5.png">
 
 1. **Tấn công deauthentication:**
 
